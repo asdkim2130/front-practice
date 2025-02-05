@@ -1,0 +1,64 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* 테이블 헤더 스타일링 */
+.table th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 600;
+    padding: 12px;
+    text-align: left;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* 테이블 셀 스타일링 */
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #dee2e6;
+    color: #212529;
+}
+
+/* 행 호버 효과 */
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* 링크 스타일링 */
+.postLink {
+    color: #212529;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.postLink:hover {
+    color: #007bff;
+}
+
+/* 댓글 수 스타일링 */
+.commentCount {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+/* 작성자 스타일링 */
+.writer {
+    color: #495057;
+    font-weight: 500;
+}
+
+/* 작성일 스타일링 */
+.date {
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+/* 조회수 스타일링 */
+.viewCount {
+    color: #6c757d;
+}

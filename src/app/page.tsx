@@ -33,6 +33,12 @@ const assignments = [
     title: "좋아요",
     description: "sateStatus 이용해서 좋아요 기능 만들기",
   },
+  {
+    order: 6,
+    path: "login",
+    title: "로그인",
+    description: "로그인 기능 만들기",
+  },
 ];
 
 export default function Home() {

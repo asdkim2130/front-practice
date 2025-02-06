@@ -1,3 +1,5 @@
+import Header from "@/components/header";
+
 export default function LoginPage() {
   async function handleSubmit(formData: FormData) {
     "use server";
@@ -11,8 +13,8 @@ export default function LoginPage() {
   }
 
   return (
-    <div>
-      <h1>로그인페이지</h1>
+    <>
+      <Header title={"로그인페이지"} hasBack={true} />
       <br></br>
       <form action={handleSubmit}>
         <label>아이디 </label>
@@ -34,6 +36,6 @@ export default function LoginPage() {
         <br></br>
         <button>로그인</button>
       </form>
-    </div>
+    </>
   );
 }
